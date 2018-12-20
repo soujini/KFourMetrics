@@ -1,0 +1,107 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
+
+// .separator{
+//   padding-left:45px;
+//   padding-right:45px;
+// }
+//
+// hr{
+//   background-color:#333333;
+//   border-width:2px;
+//   margin-top: 0px;
+//   margin-bottom: 0px;
+// }
+
+.title{
+  font-size: 50px;
+  font-family: Roboto-Thin;
+  color: rgb(0, 0, 0);
+  line-height: 1;
+}
+.title-text{
+  font-size: 24px;
+  font-family: Roboto-Thin;
+  color: rgb(13, 14, 14);
+  line-height: 2.083;
+}
+.sub-title{
+  font-size: 25px;
+  font-family: Roboto-Thin;
+  color: rgb(0, 0, 0);
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url('./assets/fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url('./assets/fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: url('./assets/fonts/Roboto-Medium.ttf');
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url('./assets/fonts/Roboto-Light.ttf');
+}
+.float-right{
+  float:right;
+}
+.br-none{
+  border-right: 0px;
+}
+input:focus {
+  outline:none;
+  border:none;
+}
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}
+.form-control:focus{
+  outline: 0 !important;
+  border-color: rgb(104,159,155);
+  box-shadow: 0 0 0 0.1rem rgb(104,159,155);
+}
+button:focus,
+ button:active {
+   outline:0;
+   background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+ }
+
+.btn-img{
+  margin-left:10px;
+}
+
+.underline{
+  height: 1.2px;
+  border: none;
+}
+.underline-div{
+  margin-top: 30px;
+  padding: 0px;
+}
+.bold{
+  font-weight:bold;
+}
+.pointer{
+  cursor: pointer;
+}
+.md-form input[type=date]:focus:not([readonly]), .md-form input[type=datetime-local]:focus:not([readonly]), .md-form input[type=email]:focus:not([readonly]), .md-form input[type=number]:focus:not([readonly]), .md-form input[type=password]:focus:not([readonly]), .md-form input[type=search-md]:focus:not([readonly]), .md-form input[type=search]:focus:not([readonly]), .md-form input[type=tel]:focus:not([readonly]), .md-form input[type=text]:focus:not([readonly]), .md-form input[type=time]:focus:not([readonly]), .md-form input[type=url]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]) {
+  -webkit-box-shadow:none;
+  box-shadow: none;
+  border-bottom: none;
+}

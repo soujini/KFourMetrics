@@ -1,0 +1,177 @@
+.section {
+  background-color: #efefef;
+  padding-left:5%;
+  padding-right:5%;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.title{
+  font-size: 50px;
+  font-family: Roboto-Thin;
+  color: rgb(0, 0, 0);
+  line-height: 1.44;
+  text-align: center;
+}
+.center{
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+}
+
+.coco-text-logo {
+  width: 187px;
+  height: 47px;
+  margin-top:-10px;
+}
+
+.profile {
+  font-size: 16px;
+  font-family: Roboto-Thin;
+  margin-top:50px;
+}
+
+.icons{
+  margin-top:66px;
+}
+
+.profile-title{
+  font-size: 16px;
+  font-family: Roboto-Medium;
+  color: rgb(51, 51, 51);
+  margin-top:44px;
+  text-align: left;
+}
+
+.profile-info{
+  font-size: 11.5px;
+  font-family:Roboto-Light;
+  margin-top:21px;
+  text-align: left;
+  margin-left:-25px;
+}
+.profile-box-div{
+  text-align: left;
+}
+.profile-box{
+  border-right: 1px solid black;
+  min-height:375px;
+  padding: 15px;
+  text-align: left;
+}
+.profile-box-last{
+  min-height:350px;
+  padding: 15px;
+  text-align: left;
+}
+.btn-custom{
+  background-color: rgb(104,159,155);
+  color:white;
+  border-radius:20px;
+  border:none;
+  width: 135px;
+  height: 44px;
+  margin-top:10px;
+  cursor: pointer;
+  font-size:12px;
+}
+
+.card{
+  height:425px;
+}
+
+.card:active {
+    opacity: 0.7;
+}
+.card:hover {
+    opacity: 0.7;
+}
+.fa{
+  color:#141B2E;
+  font-size:75px;
+  padding-bottom:25px;
+}
+.card-info{
+   margin-top:50px;
+   font-size:12px;
+font-family: Roboto-Light;
+}
+/* Extra Small devices (mobiles, 320px and up) */
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .profile{
+    text-align: center;
+  }
+  .profile-box-div{
+    text-align: center;
+  }
+  .profile-box{
+    border: 0px;
+    min-height:0px;
+    text-align: center;
+  }
+  .profile-box-last{
+    min-height:0px;
+    text-align: center;
+  }
+  .profile-info{
+    text-align: center;
+    // margin-left:0px;
+    list-style-type:none;
+  }
+  .profile-title{
+      text-align: center;
+  }
+  .btn-custom{
+    margin-bottom: 66px;
+  }
+  .card-div{
+    padding-left:12.5%;
+    padding-right:12.5%;
+    margin-bottom:50px;
+  }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .profile-box{
+    min-height:520px;
+  }
+  .profile-box-last{
+    min-height:520px;
+  }
+  .card-div{
+    padding-left:5%;
+    padding-right:5%;
+    margin-bottom:50px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .profile-box{
+    min-height:440px;
+  }
+  .profile-box-last{
+    min-height:440px;
+  }
+  .card-div{
+    padding-left:5%;
+    padding-right:5%;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .profile-box{
+    min-height:390px;
+  }
+  .profile-box-last{
+    min-height:390px;
+  }
+  .card-div{
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+}

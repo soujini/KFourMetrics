@@ -1,0 +1,155 @@
+.section {
+  background-color: #efefef;
+  padding-top:100px;
+  padding-bottom:100px;
+  padding-left:5%;
+  padding-right:5%;
+}
+
+.heading-contact{
+  font-size: 25px;
+  font-family: Roboto-Light;
+  color: black;
+  line-height: 1.2;
+}
+
+.heading-support{
+  font-size: 25px;
+  font-family: Roboto-Light;
+  color: black;
+  line-height: 1.2;
+}
+
+.support-info{
+  font-size: 14px;
+  font-family: Roboto-Light;
+  color: black;
+  line-height: 1.571;
+}
+
+ul {
+  list-style-type: none;
+  padding:0px;
+}
+
+ul > li{
+  font-size: 18px;
+  font-family: Roboto-Bold;
+  color: black;
+  font-weight: bold;
+  line-height: 1.222;
+  margin-top:60px;
+}
+
+ul>li>a{
+  color: black;
+}
+
+.form-label{
+  font-size: 13px;
+  font-family: Roboto-Light;
+  color: black;
+  line-height: 1.2;
+}
+
+.send-mesage-btn{
+  border-radius: 10px;
+  background-color: #EFAE00;
+  width: 142px;
+  height: 37px;
+  line-height:1;
+  color:white;
+  margin-top:21px;
+}
+.form-control {
+  color:black;
+  background-color: transparent;
+}
+.btn-custom{
+  background-color: #EFAE00;
+  color:black;
+  border-radius:20px;
+  border:none;
+  width: 216px;
+  height: 51px;
+  margin-top:10px;
+  cursor: pointer;
+  margin-top:45px;
+}
+.btn-custom-gray{
+  background-color: rgb(172,172,172);
+  color:white;
+  border-radius:20px;
+  border:1px solid white;
+  width: 275px;
+  height: 51px;
+  cursor: pointer;
+}
+
+.coco-title{
+  color:rgb(104,159,155);
+}
+.btn-send-msg{
+  text-align: left;
+}
+
+/* Extra Small devices (mobiles, 320px and up) */
+@media (min-width: 320px) and (max-width: 767px) {
+  .heading-support{
+    margin-top: 45px;
+  }
+  .heading-contact, .heading-support, .support-info, .send-message, ul{
+    text-align:center;
+  }
+  .btn-send-msg{
+    text-align: center;
+  }
+  .social-media{
+    text-align: center;
+  }
+  .newsletter{
+    text-align: center;
+    margin-top:45px;
+  }
+  .social-media-icons-first{
+    padding-left:30px;
+  }
+  .title{
+    text-align:center;
+    font-size: 50px;
+  }
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .heading-support{
+    margin-top: 45px;
+  }
+  .heading-contact, .heading-support, .support-info, .send-message, ul{
+    text-align:center;
+  }
+  .btn-send-msg{
+    text-align: center;
+  }
+  .social-media{
+    text-align: center;
+  }
+  .newsletter{
+    text-align: center;
+    margin-top:45px;
+  }
+  .social-media-icons-first{
+    padding-left:30px;
+  }
+  .title{
+    text-align:center;
+    font-size: 50px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {}

@@ -1,0 +1,37 @@
+.section {
+  left: 0px;
+  top: 115px;
+  // height: 653px;
+}
+
+.carousel-item{
+  height:500px !important;
+}
+.fa{
+  font-size: 35px;
+  color: #cdcccc;
+}
+
+//* Extra Small devices (tablets, 768px and up) col-sm */
+@media (max-width: 767px) {
+  .carousel-item{
+    height:700px !important;
+  }
+  .fa{
+    font-size: 20px;
+  }
+}
+/* Small devices (tablets, 768px and up) col-md  collapses here*/
+@media (min-width: 768px) and (max-width: 992px) {
+  .carousel-item{
+    height:700px !important;
+  }
+}
+
+/* Medium devices (desktops, 992px and up)  col-lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {}

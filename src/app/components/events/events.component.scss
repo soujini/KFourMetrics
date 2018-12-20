@@ -1,0 +1,128 @@
+.section{
+  background-color: rgb(255,255,255);
+  padding-top:100px;
+  padding-bottom:100px;
+  padding-right:5%;
+  padding-left:5%;
+}
+.section2{
+  background-color: rgb(255,255,255);
+  padding-bottom:100px;
+  padding-right:5%;
+  padding-left:5%;
+}
+
+.btn-custom{
+  background-color: #EFAE00;
+  color:black;
+  border-radius:10px;
+  border:none;
+   // width: 150px;
+  height: 45px;
+  margin-top:10px;
+  cursor: pointer;
+  margin-top:45px;
+  // font-size: 20px;
+}
+.carousel-item{
+  background-color:#31708F;
+  font-size:50px;
+  color:white;
+  height:150px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.card{
+  text-align: left;
+   height:650px;
+   font-family: Roboto-Medium;
+}
+
+.card:active {
+    opacity: 0.7;
+}
+.card:hover {
+    opacity: 0.7;
+}
+.fa{
+  color:#141B2E;
+  font-size:75px;
+}
+.card-info{
+   margin-top:50px;
+   font-size:12px;
+   font-family: Roboto-Light;
+}
+.fa{
+  font-size:35px;
+}
+.modal-dialog.modal-notify.modal-success .modal-header {
+    background-color: #EFAE00 !important;
+  }
+  .heading{
+    color:black !important;
+  }
+
+
+/* Extra Small devices (mobiles, 320px and up) */
+@media (min-width: 320px) and (max-width: 767px) {
+  .card-div{
+    padding-left:12.5%;
+    padding-right:12.5%;
+    margin-bottom:50px;
+  }
+  .card{
+    height:auto;
+  }
+  .title{
+    text-align:center;
+    font-size: 50px;
+  }
+  .carousel-item{
+    background-color:#31708F;
+    font-size:15px;
+    color:white;
+    height:150px;
+    text-align: center;
+    line-height: 150px;
+  }
+  .fa{
+    font-size:20px;
+  }
+
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .card-div{
+    padding-left:5%;
+    padding-right:5%;
+    margin-bottom:50px;
+  }
+  .card{
+    height:auto;
+  }
+  .title{
+    text-align:center;
+    font-size: 50px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card{
+    height:600px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+  .card-div{
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+}

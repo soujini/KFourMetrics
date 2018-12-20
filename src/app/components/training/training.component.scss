@@ -1,0 +1,183 @@
+.section {
+  background-color: #141B2E;
+  padding-top:100px;
+  padding-bottom:100px;
+  color:white;
+  height:700px;
+
+  .left{
+    padding-left: 12.5%;//or 185px
+    text-align: left;
+
+    .title{
+      font-size: 50px;
+      font-family: Roboto-Thin;
+      color: white;
+      line-height: 1.44;
+    }
+
+    .title-text{
+      font-size: 16px;
+      font-family: Roboto-Light;;
+      color: white;
+      line-height: 2.063;
+
+      span{
+        display: block;
+      }
+    }
+  }
+
+  .right{
+    margin-top:-15px;
+    padding-right:12.5%;
+    text-align:right;
+
+  }
+}
+
+/* Extra Small devices (tablets, 768px and up) col-sm */
+@media (max-width: 767px) {
+  .section{
+    text-align:center;
+    .left{
+      padding-left:7%;
+      padding-right:7%;
+      text-align:center;
+    }
+  }
+}
+/* Small devices (tablets, 768px and up) col-md  collapses here*/
+@media (min-width: 768px) and (max-width: 992px) {
+  .section{
+    text-align:center;
+    .left{
+      padding-right:12.5%;
+      text-align:center;
+
+      .title{
+        text-align:center;
+      }
+
+      .title-text{
+        text-align:center;
+      }
+    }
+    .right{
+      text-align:center;
+    }
+  }
+}
+
+/* Medium devices (desktops, 992px and up)  col-lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section{
+    .left{
+      text-align:left;
+    }
+    .right{
+      text-align:right;
+    }
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {}
+
+
+
+//
+// .section {
+//   background-color: #282F42;
+//   padding-top:100px;
+//   padding-bottom:100px;
+//     height:700px;
+//
+//   .left{
+//     padding-left: 12.5%;//or 185px
+//     text-align: left;
+//   }
+//
+//   .right{
+//     margin-top:-15px;
+//     padding-right:12.5%;
+//     text-align:right;
+//
+//     .title{
+//       color: white;
+//     }
+//
+//     .title-text{
+//       font-size: 16px;
+//       font-family: Roboto-Light;
+//       color: white;
+//       line-height: 2.063;
+//
+//       span{
+//         display: block;
+//       }
+//     }
+//
+//     .btn-custom{
+//       background-color: rgb(104,159,155);
+//       color:white;
+//       border-radius:20px;
+//       border:none;
+//       width: 216px;
+//       height: 51px;
+//       margin-top:10px;
+//       cursor: pointer;
+//     }
+//     .btn-image{
+//       padding-left:20px;
+//     }
+//   }
+// }
+//
+// /* Extra Small devices (tablets, 768px and up) col-sm */
+// @media (max-width: 767px) {
+//   .section{
+//     text-align:center;
+//     .right{
+//       padding-left:5%;
+//       padding-right:5%;
+//       text-align:center;
+//     }
+//   }
+// }
+// /* Small devices (tablets, 768px and up) col-md  collapses here*/
+// @media (min-width: 768px) and (max-width: 992px) {
+//   .section{
+//     text-align:center;
+//     .right{
+//       padding-left:12.5%;
+//       text-align:center;
+//
+//       .title{
+//         text-align:center;
+//       }
+//
+//       .title-text{
+//         text-align:center;
+//       }
+//     }
+//     .right{
+//       text-align:center;
+//     }
+//   }
+// }
+//
+// /* Medium devices (desktops, 992px and up)  col-lg */
+// @media (min-width: 992px) and (max-width: 1199px) {
+//   .section{
+//     .left{
+//       text-align:left;
+//     }
+//     .right{
+//       text-align:right;
+//     }
+//   }
+// }
+//
+// /* Large devices (large desktops, 1200px and up) */
+// @media (min-width: 1200px) and (max-width: 1920px) {}
