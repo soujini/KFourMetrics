@@ -14,11 +14,11 @@
   "dependencies": {
     "@angular/animations": "^6.0.9",
     "@angular/cdk": "^6.3.3",
-    "@angular/common": "^6.0.9",
+    "@angular/common": "^6.1.0",
     "@angular/compiler": "^6.0.9",
-    "@angular/core": "^6.0.9",
+    "@angular/core": "^6.1.0",
     "@angular/forms": "^6.0.9",
-    "@angular/http": "^6.0.9",
+    "@angular/http": "^7.1.4",
     "@angular/material": "^6.3.3",
     "@angular/platform-browser": "^6.0.9",
     "@angular/platform-browser-dynamic": "^6.0.9",
@@ -52,9 +52,10 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "node-sass": "^4.11.0",
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
-    "typescript": "^2.7.2"
+    "typescript": "^2.9.2"
   }
 }
